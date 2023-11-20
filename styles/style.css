@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&family=Montserrat:wght@500;700&display=swap');
+@import url(reset.css);
+
+:root {
+    --cor-pri-dc: hsl(158, 36%, 37%);
+    --cor-pri-c: hsl(30, 38%, 92%);
+    --cor-sec-db: hsl(212, 21%, 14%);
+    --cor-sec-dgb: hsl(228, 12%, 48%);
+    --cor-white: hsl(0, 0%, 100%);
+
+    --fnt-mont: 'Montserrat'; /* 500 e 700 */
+    --fnt-frau: 'Fraunces'; /* 700 */
+}
+
+body {
+    background-color: var(--cor-pri-c);
+    height: 100vh;
+    width: auto;
+}
+
+.principal {
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal__img {
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    width: 25%;
+    height: 60%;
+}
+
+.principal__conteudo {
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    background-color: var(--cor-white);
+    width: 25%;
+    height: 60%;
+}
+
+.principal__conteudob {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.principal__conteudob__p {
+    color: var(--cor-sec-dgb);
+    font-family: var(--fnt-mont);
+    letter-spacing: 0.4em;
+}
+
+.principal__conteudob__titulo {
+    font-family: var(--fnt-frau);
+    font-size: 2.8em;
+}
+
+.principal__conteudob__texto {
+    font-family: var(--fnt-mont);
+    color: var(--cor-sec-dgb);
+    line-height: 1.5em;
+    font-size: 1.1em;
+}
+
+.principal__conteudob__preco {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.principal__conteudob__preco1 {
+    font-family: var(--fnt-frau);
+    color: var(--cor-pri-dc);
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+.principal__conteudob__preco2 {
+    font-family: var(--fnt-mont);
+    color: var(--cor-sec-dgb);
+    text-decoration: line-through;
+}
+
+.principal__conteudob__b {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    border: 1px solid var(--cor-pri-dc);
+    background-color: var(--cor-pri-dc);
+    color: var(--cor-white);
+    font-family: var(--fnt-mont);
+    font-weight: bold;
+    border-radius: 1em;
+    padding: 7%;
+}
+
+.principal__conteudob__b:hover {
+    background-color: hsl(158, 46%, 18%);
+}
+
+.principal__conteudob__b__botao {
+    text-decoration: none;
+    color: var(--cor-white);
+}
+
+footer {
+    display: flex;
+    height: 2vh;
+    justify-content: center;
+    font-family: var(--fnt-mont);
+}
+
+.footer__link {
+    color: var(--cor-pri-dc);
+}
+
+.footer__link:hover {
+    color: hsl(158, 46%, 18%);
+}
