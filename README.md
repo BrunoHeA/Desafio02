@@ -8,4 +8,4 @@ Projeto começado e finalizado dia **19/11/2023**
 
 ---
 
-### Você pode acessar o site funcionando clicando [AQUI](https://desafio02-chi.vercel.app)
+### Você pode acessar o site funcionando clicando [AQUI](https://desafio02-lyart.vercel.app)

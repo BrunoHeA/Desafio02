@@ -114,9 +114,9 @@ footer {
 }
 
 .footer__link {
-    color: var(--cor-pri-dc);
+    color: black;
 }
 
 .footer__link:hover {
-    color: hsl(158, 46%, 18%);
+    color: var(--cor-pri-dc);
 }
