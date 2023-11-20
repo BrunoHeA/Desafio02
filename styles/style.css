@@ -41,7 +41,7 @@ body {
     border-bottom-right-radius: 5%;
     background-color: var(--cor-white);
     width: 25%;
-    height: 60%;
+    min-height: 60%;
 }
 
 .principal__conteudob {
