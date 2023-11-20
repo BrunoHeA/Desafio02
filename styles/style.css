@@ -26,6 +26,10 @@ body {
 }
 
 .principal__img {
+    background-image: url(../images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
     width: 25%;
@@ -119,4 +123,39 @@ footer {
 
 .footer__link:hover {
     color: var(--cor-pri-dc);
+}
+
+@media screen and (max-width : 1000px) {
+    .principal {
+        flex-direction: column;
+        height: 96vh;
+    }
+
+    .principal__conteudo {
+        width: 90%;
+        border-top-right-radius: 0%;
+        border-bottom-right-radius: 5%;
+        border-bottom-left-radius: 5%;
+    }
+
+    .principal__img {
+        background-position: center;
+        background-size: 100%;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        border-bottom-left-radius: 0;
+        width: 90%;
+        height: 30%;
+    }
+
+    .principal__conteudob {
+        padding: 8%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 4vh;
+    }
 }
