@@ -33,7 +33,7 @@ body {
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
     width: 25%;
-    min-height: 60%;
+    min-height: 65%;
 }
 
 .principal__conteudo {
@@ -158,5 +158,11 @@ footer {
         flex-direction: column;
         align-items: center;
         height: 4vh;
+    }
+}
+
+@media screen and (min-width : 1510px) {
+    .principal__img {
+        min-height: 60%;
     }
 }
